@@ -20,6 +20,7 @@ export class InteractiveComponent implements OnInit, AfterViewInit {
   @ViewChild('canvas', { static: true }) canvasRef!: ElementRef<HTMLCanvasElement>;
   @ViewChild('rootdiv', { static: true }) rootdiv!: ElementRef;
 
+  public selectedPage = ['home','about','experience','projects','contact'];
   private scene!: THREE.Scene;
   private camera!: THREE.PerspectiveCamera;
   private clock!: THREE.Clock;

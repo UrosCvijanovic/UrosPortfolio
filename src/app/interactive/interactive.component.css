@@ -22,22 +22,25 @@
 
 #navmenu {
 	position: absolute;
-	top: 10px;
+	top: 0;
 	right: 0;
-	width: 100%;
-}
-#navmenu ul {
+	margin: 20px;
+  }
+  
+  #navmenu ul {
 	list-style-type: none;
-  	margin: 0;
- 	padding: 0;
-  	overflow: hidden;
+	margin: 0;
+	padding: 0;
   }
-
-#navmenu li {
-	float: left;
+  
+  #navmenu li {
+	display: inline-block;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
   }
-#navmenu li a {
-	display: block;
-  	padding: 8px;
-  	background-color: #dddddd;
+  
+  #navmenu a {
+	color: #fff;
+	text-decoration: none;
   }
